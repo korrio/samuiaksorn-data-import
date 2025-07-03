@@ -168,6 +168,7 @@ function transformToLead(csvRow) {
         expected_revenue: expectedRevenue,
         probability: 100,
         date_closed: dateClosedFormatted,
+        sequence_no: "Old"
         
         // date_deadline: date.toISOString().split('T')[0],
         // phone: csvRow.TEL?.toString() || '',
