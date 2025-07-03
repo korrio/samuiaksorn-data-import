@@ -165,7 +165,7 @@ function transformToLead(csvRow) {
         partner_name: csvRow['HOTEL/FIRM'],
         description: description,
         type: type,
-        expected_revenue: expectedRevenue,
+        // expected_revenue: expectedRevenue,
         probability: 100,
         date_closed: dateClosedFormatted,
         sequence_no: "Old"
